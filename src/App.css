@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer{
+ position:fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icons{
+  /* border:2px solid blue; */
+  width: 100%;
+  /* text-transform: capitalize; */
+}
+.label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+cursor: pointer;
+}
+.main:hover{
+  background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
+  list-style: none;
+}
+li{
+  list-style: none;
+}
+
+.path {
+  /* border: 2px solid blue; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transform: translateY(60%);
+  font-size: larger;
 }
 
-.App-link {
-  color: #61dafb;
+.title
+{
+  text-transform: capitalize;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: block;
+}
+ hr{
+  width: 50%;
+  /* border: 2px solid black; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check
+{
+  border: 2px solid black;
+  width: 100%;
 }
